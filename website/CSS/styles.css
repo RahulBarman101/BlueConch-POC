@@ -428,6 +428,10 @@ header {
 }
 
 .item-img {
+    /* height: 100%;
+    width: auto;
+    min-height: 100px;
+    min-width: 100px; */
     padding-bottom: 10px;
     border-bottom: 1px solid #f1f3f4;
 }
