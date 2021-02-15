@@ -1,0 +1,35 @@
+@media only screen and (max-width: 767px) {
+    .ad {
+      margin-top: 20px;
+    }
+
+    .more-section {
+        display: none;
+    }
+
+    .num-items {
+        display: none;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .profile-img {
+        display: none;
+    }
+
+    .item-img {
+        display: none;
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    .profile-img {
+        display: none;
+    }
+
+    .item-img {
+        display: none;
+    }
+}

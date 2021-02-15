@@ -1,0 +1,552 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Beep a dummy e-commerce website made using HTML5, CSS3, JS and bootstrap">
+    <meta name="keywords" content="beep, e-commerce, full responsive website">
+    <!-- CSS Imports -->
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- responsiveness -->
+    <link rel="stylesheet" href="./CSS/responsive.css">
+
+    <title>Beep</title>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#"><img src="./Images/beep-1@2x.png" alt="" class="header-logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto justify-content-end">
+                        <li class="nav-item active">
+                            <img src="./Images/profile_close_2.png" alt="" class="profile-img header-icon">
+                            <a class="nav-link" href="#">My Profile <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <img src="./Images/bag_3.png" alt="" class="item-img header-icon">
+                            <a class="nav-link" href="#">Items</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"><img src="./Images/search-icon.png" alt="" class="search-img header-icon"></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- pages section -->
+    <section class="page-section">
+
+        <!-- main container -->
+        <div class="container pages">
+
+            <!-- pages link -->
+            <ul class="pages-list">
+                <li>Home</li>
+                <li style="color: #c1c8ce;">/</li>
+                <li>Accessories</li>
+            </ul>
+
+        </div>
+
+    </section>
+
+    <!-- Accessories and Ad section -->
+    <div>
+
+        <!-- main container -->
+        <div class="container a2c">
+
+            <div class="row single-row">
+
+                <!-- accessories col -->
+                <div class="col-md-3 accessories">
+
+                    <h6>all accessories</h6> 
+                    <div class="accessories-wrapper"> 
+                        <p class="accessories-head">Accessories</p>
+                        <ul class="acc-list">
+                            <li><a href="#">Cables and Docks</a></li>
+                            <li><a href="#">Cases and Films</a></li>
+                            <li><a href="#">Charging Devices</a></li>
+                            <li><a href="#">Connected Home</a></li>
+                            <li><a href="#">Headphones</a></li>
+                        </ul>
+                    </div>                  
+
+                </div>
+
+                <!-- ad col -->
+                <div class="col-md-8 offset-sm-1" style="background-color: #33a0ff;">
+
+                    <!-- single row -->
+                    <div class="row ad">
+                        <!-- slide 1 -->
+                            <div class="col-md-7 ad-info" id="ad-slide1">
+                                <h4>iPhone</h4>
+                                <h6>Performance and design. Taken right to the edge</h6>
+                                <button class="cta"> Shop Now </button>
+                            </div>
+                            <div class="col-md-5" id="ad-slide1-img">
+                                <img src="./Images/pic.png" alt="" class="img-fluid">
+                            </div>
+                        
+                        <!-- slide 2 -->
+                            <div class="col-md-7 ad-info ad-wrapper" id="ad-slide2">
+                                <h4>hola</h4>
+                                <h6>Performance and design. Taken right to the edge</h6>
+                                <button class="cta"> Shop Now </button>
+                            </div>
+                            <div class="col-md-5 ad-wrapper" id="ad-slide2-img">
+                                <img src="./Images/pic.png" alt="" class="img-fluid">
+                            </div>
+
+                        <!-- slide 3 -->
+                            <div class="col-md-7 ad-info ad-wrapper" id="ad-slide3">
+                                <h4>hi</h4>
+                                <h6>Performance and design. Taken right to the edge</h6>
+                                <button class="cta"> Shop Now </button>
+                            </div>
+                            <div class="col-md-5 ad-wrapper" id="ad-slide3-img">
+                                <img src="./Images/pic.png" alt="" class="img-fluid">
+                            </div>
+
+                        <div class="circle active-circle" id="circle1"></div>
+                        <div class="circle" id="circle2"></div>
+                        <div class="circle" id="circle3"></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <main class="main">
+        <!-- main section -->
+        <div class="container">
+
+            <div class="row">
+
+                <!-- left options column -->
+                <div class="col-md-3 col-left">
+
+                    <!-- row select price -->
+                    <div class="select-price">
+
+                        <h6>Prices</h6>
+                            <div class="row">
+                            <!-- col min price -->
+                            <div class="col-md-6 min-price">
+                                <p>min</p>
+                                <input type="text" placeholder="$499" class="min-input">
+                            </div>
+                            <div class="col-md-6 max-price">
+                                <p>max</p>
+                                <input type="text" placeholder="$499" class="max-input">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- row select color -->
+                    <div class="select-color">
+                        <h6>Color</h6>
+                        <div class="colors">
+                            <div class="blue color"></div>
+                            <div class="red color"></div>
+                            <div class="black color"></div>
+                            <div class="yellow color"></div>
+                            <div class="pink color"></div>
+                            <div class="grey color"></div>
+                        </div>
+                    </div>
+
+                    <!-- row select brand -->
+                    <div class="select-brand">
+
+                        <h6>Brand</h6>
+                        <ul class="brand-list">
+                            <li><a href="#">Apple</a></li>
+                            <li><a href="#">Beats</a></li>
+                            <li><a href="#">Samsung</a></li>
+                            <li><a href="#">Siemens</a></li>
+                        </ul>
+
+                    </div>
+
+                    <!-- row more section -->
+                    <div class="more-section">
+
+                        <button class="more-btn">More</button>
+
+                    </div>
+
+                </div>
+
+                <!-- right items column -->
+                <div class="col-md-8 offset-sm-1 col-right" style="padding-left: 0;">
+
+                    <div class="advance-search">
+                        
+                        <div class="num-items">
+                            13items
+                        </div>
+
+                        <div class="sort">
+                            Order By
+                            <select class="sort-menu">
+                              <option value="0">Name</option>
+                              <option value="1">Price</option>
+                              <option value="2">Popularity</option>
+                              <option value="3">Likes</option>
+                            </select>
+                        </div>
+
+                        <div class="show">
+                            Show
+                            <select class="show-menu">
+                              <option value="0">10</option>
+                              <option value="1">15</option>
+                              <option value="2">20</option>
+                              <option value="3">25</option>
+                            </select>
+                        </div>
+
+                        <!-- menu icon -->
+                        <div class="icons">
+                            <div class="menu-icon">
+                                <div class="v-line1"></div>
+                                <div class="v-line2"></div>
+                                <div class="h-line1"></div>
+                                <div class="h-line2"></div>
+                            </div>
+
+                            <div class="menu-bar">
+                                <i class="fa fa-bars" style="font-size: 22px; color: #33a0ff;"></i>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="items-list">
+
+                        <div class="item item1">
+                            <img src="./Images/Rectangle 5.png" alt="" class="img-fluid item-img">
+                            <h6>Apple Macbook Pro</h6>
+                            <div class="rating">
+
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+
+                            </div>
+
+                            <div class="price">
+                                <span class="new-price">$499</span>
+                                <span class="old-price">$599</span>
+                            </div>
+                        </div>
+
+                        <div class="item item2">
+                            <img src="./Images/Rectangle 5.png" alt="" class="img-fluid item-img">
+                            <h6>Apple Macbook Pro</h6>
+                            <div class="rating">
+
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+
+                            </div>
+
+                            <div class="price">
+                                <span class="new-price">$499</span>
+                                <span class="old-price">$599</span>
+                            </div>
+                        </div>
+
+                        <div class="item item3">
+                            <img src="./Images/Rectangle 5.png" alt="" class="img-fluid item-img">
+                            <h6>Apple Macbook Pro</h6>
+                            <div class="rating">
+
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+
+                            </div>
+
+                            <div class="price">
+                                <span class="new-price">$499</span>
+                                <span class="old-price">$599</span>
+                            </div>
+                        </div>
+
+                        <div class="item item4">
+                            <img src="./Images/Rectangle 5.png" alt="" class="img-fluid item-img">
+                            <h6>Apple Macbook Pro</h6>
+                            <div class="rating">
+
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+
+                            </div>
+
+                            <div class="price">
+                                <span class="new-price">$499</span>
+                                <span class="old-price">$599</span>
+                            </div>
+                        </div>
+
+                        <div class="item item5">
+                            <img src="./Images/Rectangle 5.png" alt="" class="img-fluid item-img">
+                            <h6>Apple Macbook Pro</h6>
+                            <div class="rating">
+
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+
+                            </div>
+
+                            <div class="price">
+                                <span class="new-price">$499</span>
+                                <span class="old-price">$599</span>
+                            </div>
+                        </div>
+
+                        <div class="item item6">
+                            <img src="./Images/Rectangle 5.png" alt="" class="img-fluid item-img">
+                            <h6>Apple Macbook Pro</h6>
+                            <div class="rating">
+
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+
+                            </div>
+
+                            <div class="price">
+                                <span class="new-price">$499</span>
+                                <span class="old-price">$599</span>
+                            </div>
+                        </div>
+
+                        <div class="item item7">
+                            <img src="./Images/Rectangle 5.png" alt="" class="img-fluid item-img">
+                            <h6>Apple Macbook Pro</h6>
+                            <div class="rating">
+
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+
+                            </div>
+
+                            <div class="price">
+                                <span class="new-price">$499</span>
+                                <span class="old-price">$599</span>
+                            </div>
+                        </div>
+
+                        <div class="item item8">
+                            <img src="./Images/Rectangle 5.png" alt="" class="img-fluid item-img">
+                            <h6>Apple Macbook Pro</h6>
+                            <div class="rating">
+
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+
+                            </div>
+
+                            <div class="price">
+                                <span class="new-price">$499</span>
+                                <span class="old-price">$599</span>
+                            </div>
+                        </div>
+
+                        <div class="item item9">
+                            <img src="./Images/Rectangle 5.png" alt="" class="img-fluid item-img">
+                            <h6>Apple Macbook Pro</h6>
+                            <div class="rating">
+
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+
+                            </div>
+
+                            <div class="price">
+                                <span class="new-price">$499</span>
+                                <span class="old-price">$599</span>
+                            </div>
+                        </div>
+
+                        <div class="item item10">
+                            <img src="./Images/Rectangle 5.png" alt="" class="img-fluid item-img">
+                            <h6>Apple Macbook Pro</h6>
+                            <div class="rating">
+
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+
+                            </div>
+
+                            <div class="price">
+                                <span class="new-price">$499</span>
+                                <span class="old-price">$599</span>
+                            </div>
+                        </div>
+
+                        <div class="item item11">
+                            <img src="./Images/Rectangle 5.png" alt="" class="img-fluid item-img">
+                            <h6>Apple Macbook Pro</h6>
+                            <div class="rating">
+
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+
+                            </div>
+
+                            <div class="price">
+                                <span class="new-price">$499</span>
+                                <span class="old-price">$599</span>
+                            </div>
+                        </div>
+
+                        <div class="item item12">
+                            <img src="./Images/Rectangle 5.png" alt="" class="img-fluid item-img">
+                            <h6>Apple Macbook Pro</h6>
+                            <div class="rating">
+
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+
+                            </div>
+
+                            <div class="price">
+                                <span class="new-price">$499</span>
+                                <span class="old-price">$599</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="page-num">
+                        <div class="page-no">
+                            <h6 class="num">1</h6>
+                            <h6 class="num">2</h6>
+                            <h6 class="num selected-page">3</h6>
+                            <h6 class="num">4</h6>
+                            <h6 class="num">5</h6>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="footer">
+
+                <div class="container">
+
+                    <div class="row">
+
+                        <div class="col-md-3 beep-footer">
+                            <img src="./Images/beep@2x.png" alt="" class="beep-footer-img">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni autem quas exercitationem tenetur deleniti perspiciatis quae recusandae sunt laudantium eos.</p>
+                        </div>
+
+                        <div class="col-md-3 offset-md-1 socials">
+                            <h6>Follow Us</h6>
+                            <p>Since the 1500s when an unkonwn printer took a galley of type and scrambled</p>
+                            <div class="social-links">
+                                <img src="./Images/facebook.png" alt="" class="img-fb">
+                                <img src="./Images/twitter.png" alt="" class="img-twitter">
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 offset-md-1 contact">
+                            <h6>Contact Us</h6>
+                            <p>My company, 4578 Marmora Road, Glasgow D04 89GR</p>
+                            <p>Email: support@whatever.com</p>
+                        </div>
+
+                    </div>
+
+                    <div class="row cpy">
+
+                        <div class="col-md-8">
+                            <span class="copyright">&copy; 2021 Ecommerce site by www.beep.com</span>
+                        </div>
+                        <div class="col-md-3 offset-md-1">
+                            <div class="payments">
+                                <img src="./Images/Western-union.png" alt="">
+                                <img src="./Images/Group 19.png" alt="">
+                                <img src="./Images/Paypal.png" alt="">
+                                <div class="visa-main">
+                                    <img src="./Images/Shape 327.png" alt="" class="visa-o">
+                                    <img src="./Images/Shape 328.png" alt="" class="visa">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <script src="./JS/jquery.js"></script>
+    <script src="./JS/bootstrap.min.js"></script>
+    <script src="./JS/index.js"></script>
+    <script src="./JS/bootstrap.js"></script>
+</body>
+</html>
